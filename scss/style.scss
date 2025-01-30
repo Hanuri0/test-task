@@ -1,3 +1,87 @@
-.hw{
-    color: red;
+@font-face {
+    font-family: "ProximanovaRegular"; 
+    src: url("../fonts/proximanova_regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+$main-font: "ProximanovaRegular", sans-serif;
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: $main-font;
+}
+.container {
+  margin: 0 75px;
+  height: 100vh;
+}
+
+.header__inner {
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 154px;
+}
+.nav__link {
+    color: #333333;
+    text-decoration: none;
+    margin-right: 90px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.header__social {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.header__social-link {
+    margin-right: 12px;
+}
+
+.header__phone__wrapper{
+    display: grid;
+    margin-left: 40px;
+}
+.header__phone__wrapper__line{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header__phone__arrow{
+    background-color: #fff;
+    border: 0;
+}
+
+.header__contacts {
+    display: flex;
+}
+
+.header__phone {
+    color: #333333;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 25px;
+    width: 193px;
+}
+
+.bg {
+    background-image: url(../img/Group.png);
+    width: 667px;
+    height: 654px;
+    top: 234px;
+    left: 1178px;
+    gap: 0px;
+    opacity: 0px;
 }
